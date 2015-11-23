@@ -514,6 +514,11 @@ hr.light{
  * 6.6 Section: Schedule
  */
 
+ .program figure{
+    display: inline-block !important;
+    margin-right: 16px;
+ }
+
 .program-tabs{
   background: red;
   color: white;
@@ -534,6 +539,10 @@ hr.light{
 .program-tabs > li.active{
   border-radius: 0;
   border: 0;
+}
+
+.map{
+  margin-top: 18px;
 }
 
 .nav-tabs > li > a {
